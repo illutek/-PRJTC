@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+header {
+
+    height: 70%;
+    background: #444 url(../images/achtergrond3-min.jpg) center center fixed;
+    background-size: cover;
+
+    /*
+    background-image: url(../images/achtergrond3-min.jpg);
+    background-position: center center;
+    background-color: #444;
+    background-attachment: fixed;
+    */
+
+    color: #FFF;
+    text-align: center;
+}
+
+#impressie, #impressie2 {
+    min-height: 50%;
+    background: center center fixed;
+    background-size: cover;
+}
+
+#impressie {
+    background-image: url(../images/achtergrond2-min.jpg);
+}
+
+#impressie2 {
+    background-image: url(../images/achtergrond4-min.jpg);
+}
+
+#fotos {
+    min-height: 50%;
+}
+
+#info {
+    text-align: center;
+    background: #525EA5;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#typo {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#logo {
+}
+
+#naam {
+}
+
+.naaronder, .naaronder2 {
+    font-size: 300%;
+    text-align: center
+}
+
+.naaronder a {
+    color: white;
+}
+
+.naaronder2 a {
+    color: black;
+}
+
+#info a {
+    color: white;
+}
+
+#typo-container {
+    background: url("../images/typo1.png") no-repeat right bottom;
+    padding-bottom: 220px;
+}
+
+#typo-links {
+    border-top: solid 2px #000;
+}
+
+#typo-rechts {
+    padding-top: 20px;
+}
+
+#typo-rechts p {
+    max-width: 300px;
+}
+
+#quote {
+    font-size: 150%;
+    font-family: Georgia;
+    font-style: italic;
+    background: url(../images/typo3.png) no-repeat right top;
+    padding: 50px 110px 0px 0px;
+    text-align: right;
+}
+
+#typo-container h2 {
+    font-size: 350%;
+}
+
+/* Algemeen */
+footer {
+    background: #292E38;
+    color: #8693AA;
+    padding: 2% 0;
+}
+
+#hoofdingpagina {
+}
+
+#inhoud {
+}
+
+#logopage img {
+}
+
+footer input, footer textarea {
+}
+
+footer select {
+}
+
+footer input:focus, footer select:focus, footer textarea:focus {
+}
+
+.webform-calendar {
+}
+
+/* BOOTSTRAP */
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0);
+    background: transparent;
+    border: none;
+}
+
+/* INSTAGRAMEFFECTEN:  */
+.instagram1 {
+    -webkit-filter: grayscale(1) brightness(1.2) contrast(1.05);
+    filter: grayscale(1) brightness(1.2) contrast(1.05);
+}
+
+.instagram2 {
+    -webkit-filter: sepia(0.5) hue-rotate(-30deg) saturate(1.2) contrast(0.8);
+    filter: sepia(0.5) hue-rotate(-30deg) saturate(1.2) contrast(0.8);
+}
+
+.instagram3 {
+    -webkit-filter: sepia(0.35) contrast(0.9) brightness(1.1) hue-rotate(-10deg) saturate(1.5);
+    filter: sepia(0.35) contrast(0.9) brightness(1.1) hue-rotate(-10deg) saturate(1.5);
+}
+
+.instagram4 {
+    -webkit-filter: sepia(0.4) saturate(1.5) contrast(0.9) brightness(1.1) hue-rotate(-15deg);
+    filter: sepia(0.4) saturate(1.5) contrast(0.9) brightness(1.1) hue-rotate(-15deg);
+}
+
+/* zie ook http://designpieces.com/2014/09/instagram-filters-css3-effects/ */
