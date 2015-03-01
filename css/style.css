@@ -32,6 +32,22 @@ header {
     text-align: center;
 }
 
+/* BOOTSTRAP */
+/* Specifieke Bootstrapopmaak */
+.navbar {
+    font-size: 130%;
+}
+
+.navbar a, .navbar a:active {
+    color: white !important;
+    background: transparent;
+}
+
+.navbar-default {
+    background: rgba(255, 255, 255, 0);
+    border: none;
+}
+
 #impressie, #impressie2 {
     min-height: 50%;
     background: center center fixed;
@@ -142,13 +158,6 @@ footer input:focus, footer select:focus, footer textarea:focus {
 }
 
 .webform-calendar {
-}
-
-/* BOOTSTRAP */
-.navbar-default {
-    background-color: rgba(255, 255, 255, 0);
-    background: transparent;
-    border: none;
 }
 
 /* INSTAGRAMEFFECTEN:  */
