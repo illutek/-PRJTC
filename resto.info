@@ -1,0 +1,14 @@
+; $Id$
+name = Resto
+description = In opdracht van Koen Timmers
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/style.css
+regions[menu] = Menu
+regions[intro] = Intro
+regions[carousel] = Carousel
+regions[content] = content
+regions[zijbalk] = Zijbalk
+regions[footer] = footer
+
